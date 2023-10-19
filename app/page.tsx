@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Container, CardContent } from './stylespage';
-import logoPlataforma from '../assets/logo plataforma.png';
 
 const Home: React.FC = () => {
   type BasesType = {
@@ -121,6 +120,7 @@ const Home: React.FC = () => {
     <CardContent>
       <div className="principalContent">
         <div className="logo">
+        <img src='/logo plataforma.png' alt="PH Negócios Plataforma" style={{ width: '400px', height: 'auto', marginTop: '5%', marginBottom: '3%' }} />
         </div>
         <nav>
           <ul className="nav-links">
